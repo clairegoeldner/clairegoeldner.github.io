@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>Rural Virtual Academy - Claire G.</title>
+    <meta charset="utf-8" />
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	  <!-- link the webpage's stylesheet -->
+	  <link rel="stylesheet" href="/style.css" />
+
+	  <!-- link the webpage's JavaScript file -->
+	  <script src="/script.js" defer></script>
+
+  </head>
+  
+  <body>
+    <nav id = "topnav">
+			<table class = "navTable">
+				<tr>
+					<td class = "navButton">
+						<a class = "navLink" href = "/">Home</a>
+					</td>
+					<td class = "navButton">
+						<a class = "navLink" href = "about.html">About</a>
+					</td>
+					<td class = "emptyBox"> </td>
+				</tr>
+			</table>
+		</nav>
+
+		<h1>Join Rural Virtual Academy</h1>
+		<h2>You are unique. Your education should be, too.</h2>
+		<img src = "assets/rva.png" alt = "Rural Virtual Academy's logo">
+		<h6>Source: <a href = "https://www.ruralvirtual.org">ruralvirtual.org</a></h6>
+
+		<h1>RVA has changed the way I learn.</h1><br><br>
+
+		<h2>Learn More</h2>
+		<div class = "facts form">
+			<h2>Want to learn about RVA? Simply click the button to display a fact!</h2>
+			<br>
+			<p id = "outputFact"></p>
+
+			<button id = "displayFact" class = "button">Display</button>
+		</div>
+
+		<h2>Interested? Talk to your parent or guardian!</h2>
+		<div class = "form">
+			<h3>Try this tool to create some talking points.</h3>
+			<h3>Just input your information (absolutely none of it is kept) and hit "Generate"!</h3>
+			<br>
+			
+			<label for = "name">Name of Parent/Guardian:</label>
+			<input id = "name" type = "text">
+			<br><br>
+			
+			<label for = "benefit">1-2 Benefits of RVA:</label>
+			<input id = "benefit" type = "text">
+			<br><br>
+
+			<button id = "displayScript" class = "button">Generate</button>
+		</div>
+
+		<p id = "outputScript"></p>
+  </body>
+</html>
