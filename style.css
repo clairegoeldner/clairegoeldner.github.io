@@ -1,0 +1,109 @@
+/*Body*/
+body {
+	background-color: #F5F5F5;
+	margin: 2.5%;
+	text-align: center;
+}
+
+nav {
+	background-color: #CC0000;
+	float: left;
+	width: 100%;
+	overflow: auto;
+}
+
+/*Nav Table*/
+.navButton {
+	background-color: #F5F5F5;
+	height: 50px;
+	width: 33%;
+	text-align: center;
+}
+
+@media screen and (min-width: 150px) {
+	.navButton {
+		width: 150px;
+	}
+}
+
+@media screen and (max-width: 300px) {
+	.navButton {
+		width: 100px;
+	}
+}
+
+.navLink {
+	font-size: 25px;
+	color: #660000;
+	text-decoration: none;
+}
+
+.emptyBox {
+	min-width: 34%;
+}
+
+.navTable {
+	width: 100%;
+}
+
+/*Text*/
+p, h6, a, h3, li, h1, h2, label {
+	color: #660000;
+	font-family: "Arial Narrow", sans-serif;
+	font-size: 18px;
+}
+
+@media screen and (min-width: 992px) {
+	p, h6, a, h3, label {
+		font-size: 25px;
+	}
+
+	h1 {
+		font-size: 75px;
+	}
+
+	h2 {
+		font-size: 50px;
+	}
+}
+
+h1, h2 {
+	font-size: 50px;
+	text-align: center;
+	padding-top: 2em;
+}
+
+h2 {
+	font-size: 25px;
+	padding: 0;
+}
+
+/*Buttons*/
+.button, button {
+	width: 34%;
+	margin: 0 33%;
+	background-color: #F5F5F5;
+	border: none;
+	padding: 10px;
+	text-decoration: none;
+	color: #660000;
+	display: inline-block;
+}
+
+.button:hover a, .button:hover, .navButton:hover .navLink, .navButton:hover {
+	background-color: #660000;
+	color: #F5F5F5;
+}
+
+/* STYLE FEATURES */
+.form {
+	width: 60%;
+	background-color: #E5E5E5;
+	text-align: center;
+	margin: auto;
+	padding: 25px;
+}
+
+img {
+	max-width: 90%;
+}
